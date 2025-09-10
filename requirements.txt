@@ -1,0 +1,14 @@
+# Core
+pandas
+numpy
+scikit-learn
+joblib
+
+# Model selection & training
+scipy
+
+# Streamlit UI
+streamlit
+
+# Optional (for handling paths / JSON)
+pathlib

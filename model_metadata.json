@@ -1,0 +1,70 @@
+{
+  "target_col": "label_deadstock_90d",
+  "final_feature_cols": [
+    "category",
+    "brand",
+    "price",
+    "cost",
+    "region",
+    "on_hand",
+    "lead_time_days",
+    "days_since_first_sale",
+    "avg_daily_sales_30d",
+    "avg_daily_sales_90d"
+  ],
+  "top_features_asked": [
+    "category",
+    "brand",
+    "price",
+    "cost",
+    "region",
+    "on_hand",
+    "lead_time_days",
+    "days_since_first_sale",
+    "avg_daily_sales_30d",
+    "avg_daily_sales_90d"
+  ],
+  "test_accuracy": 0.55875,
+  "forbidden_columns": [
+    "snapshot_date",
+    "sku_id",
+    "store_id"
+  ],
+  "categorical_features": [
+    "category",
+    "brand",
+    "region"
+  ],
+  "numeric_features": [
+    "price",
+    "cost",
+    "on_hand",
+    "lead_time_days",
+    "days_since_first_sale",
+    "avg_daily_sales_30d",
+    "avg_daily_sales_90d"
+  ],
+  "categories_map": {
+    "category": [
+      "Apparel",
+      "Home",
+      "Accessories",
+      "Beauty",
+      "Footwear"
+    ],
+    "brand": [
+      "Autograph",
+      "Blue Harbour",
+      "Per Una",
+      "M&S Core",
+      "Goodmove"
+    ],
+    "region": [
+      "East",
+      "South",
+      "West",
+      "North",
+      "Central"
+    ]
+  }
+}
